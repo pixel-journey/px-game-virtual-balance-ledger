@@ -1,10 +1,11 @@
-# Security notes
+# Security notes — virtual balance
 
-| Issue | Lab mitigation |
-|-------|----------------|
-| Anyone mints virtual | trusted minter check |
-| Peer dump / market | transfer disabled |
-| Spend others' balance | owner-only spend |
-| Overspend | balance check |
+| Mitigated | Behavior |
+| --- | --- |
+| Non-minter earn | refused |
+| Non-owner spend | refused |
+| Over-spend | refused |
+| Peer transfer | always refused |
+| Overflow | balance/amount caps |
 
-Production needs careful minter key / contract auth design and rate limits before any FT bridge.
+Production: `require_auth` for minter and owner; decide whether minter is a contract account or a permission; never treat this as an FT that can be listed on a market without a separate token design.
