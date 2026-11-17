@@ -1,11 +1,22 @@
-# Security notes — virtual balance
+# Security — virtual balance
 
-| Mitigated | Behavior |
+## Closed in tests
+
+| Issue | Behavior |
 | --- | --- |
-| Non-minter earn | refused |
+| Untrusted earn | only trusted minter |
 | Non-owner spend | refused |
-| Over-spend | refused |
-| Peer transfer | always refused |
-| Overflow | balance/amount caps |
+| Overspend | insufficient balance |
+| Peer transfer | always disabled |
+| Non-positive / overflow earn | refused |
 
-Production: `require_auth` for minter and owner; decide whether minter is a contract account or a permission; never treat this as an FT that can be listed on a market without a separate token design.
+## Not closed
+
+| Concern | Guidance |
+| --- | --- |
+| Minter auth | require_auth, not a matching string |
+| Stolen minter key | Per-quest caps and pause |
+| RAM | Who pays for account rows |
+| Bridge | Separate contract; burn + mint atomic |
+
+No token and no wasm in this repository.

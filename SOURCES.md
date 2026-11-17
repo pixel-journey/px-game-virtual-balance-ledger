@@ -1,11 +1,9 @@
-# Official sources
+# Sources
 
 | Source | Use |
 | --- | --- |
-| [docs.wax.io](https://docs.wax.io/) | WAX development |
-| [docs.eosnetwork.com](https://docs.eosnetwork.com/) | Actions, auth |
-| [eosio.token](https://github.com/eosio/eosio.contracts) | Contrast: transferable balances |
+| [docs.wax.io](https://docs.wax.io/) | Contract patterns |
+| [eosio.token](https://github.com/eosio/eosio.contracts) | What a **transferable** token looks like — this lab is the opposite |
+| [docs.eosnetwork.com](https://docs.eosnetwork.com/) | require_auth |
 
-## Related
-
-[px-token-balance-ledger](https://github.com/pixel-journey/px-token-balance-ledger) · [TREASURY-TOKEN-LEARNING-PATH](https://github.com/pixel-journey/px-contract-examples-vault/blob/main/docs/TREASURY-TOKEN-LEARNING-PATH.md)
+Related: [px-token-balance-ledger](https://github.com/pixel-journey/px-token-balance-ledger) (peer transfer allowed, supply conserved) · [px-invariant-kit](https://github.com/pixel-journey/px-invariant-kit)
