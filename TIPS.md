@@ -31,4 +31,4 @@
 
 ## Related
 
-[token ledger](https://github.com/pixel-journey/px-token-balance-ledger) · [decimal supply](https://github.com/pixel-journey/px-token-ft-decimal-supply-simulator) · [invariant kit](https://github.com/pixel-journey/px-invariant-kit) · [treasury path](https://github.com/pixel-journey/px-contract-examples-vault/blob/main/docs/TREASURY-TOKEN-LEARNING-PATH.md)
+[token ledger](https://github.com/pixel-journey/px-token-balance-ledger) · [decimal supply](https://github.com/pixel-journey/px-token-ft-decimal-supply-simulator) · [invariant kit](https://github.com/pixel-journey/px-invariant-kit) · `px-contract-examples-vault` (private; not this public course)

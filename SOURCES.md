@@ -16,4 +16,4 @@
 | [no-loss pool](https://github.com/pixel-journey/px-rng-no-loss-prize-pool) | Principal vs yield |
 | [masterchef](https://github.com/pixel-journey/px-stake-nft-custodial-masterchef) | Emission index, not points |
 | [invariant kit](https://github.com/pixel-journey/px-invariant-kit) | Shared gates |
-| [treasury path](https://github.com/pixel-journey/px-contract-examples-vault/blob/main/docs/TREASURY-TOKEN-LEARNING-PATH.md) | Step 13 |
+| `px-contract-examples-vault` (private; not this public course) | Step 13 |
